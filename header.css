@@ -1,0 +1,8 @@
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand img {
+    max-width: 100px; /* Adjust the logo size as needed */
+    height: auto;
+}
