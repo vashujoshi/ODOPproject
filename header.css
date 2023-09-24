@@ -1,5 +1,9 @@
 .navbar {
     background-color: #343a40;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 
 .navbar-brand img {
