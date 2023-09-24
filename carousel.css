@@ -1,16 +1,16 @@
 .carousel-inner img {
-object-fit: contain;
-max-height: 350px; /* Keep the max height at 300px */
-width: 500px; /* Adjust the width to 600px */
-margin: 0 auto; /* Center the carousel on the screen horizontally */
+	object-fit: contain;
+	max-height: 350px; /* Keep the max height at 300px */
+	width: 500px; /* Adjust the width to 600px */
+	margin: 0 auto; /* Center the carousel on the screen horizontally */
 }
 
 
 
 /* To center the carousel, you can add the following CSS code */
 #carouselExampleIndicators {
-margin: 0 auto; /* This centers the carousel horizontally */
-max-width: 80%; /* Adjust the maximum width as needed */
+	margin: 0 auto; /* This centers the carousel horizontally */
+	max-width: 80%; /* Adjust the maximum width as needed */
 }
 
 
@@ -18,16 +18,16 @@ max-width: 80%; /* Adjust the maximum width as needed */
 
 /* Adjust carousel indicator colors */
 .carousel-indicators li {
-background-color: black; /* Change indicator color to black */
+	background-color: black; /* Change indicator color to black */
 }
 
 /* Adjust carousel control button colors */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-background-color: black; /* Change control button color to black */
+	background-color: black; /* Change control button color to black */
 }
 
 /* Center the hero section content */
 .hero {
-text-align: center;
+	text-align: center;
 }
