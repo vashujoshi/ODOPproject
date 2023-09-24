@@ -1,6 +1,14 @@
 .navbar {
-    background-color: #343a40;
+    /* background-color: #343a40; */
+    
+    /* background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(214, 19, 29) 0%, rgb(213, 82, 12) 30%, rgb(211, 99, 6) 76%); */
+    /* background: rgb(58,180,94);
+background: linear-gradient(90deg,  rgba(253,29,209,1) 42%, rgba(253,148,29,1) 69%, rgba(253,148,29,1) 85%, rgba(252,176,69,1) 100%); */
+    background: rgb(194,0,0);
+    background: linear-gradient(90deg, rgba(194,0,0,1) 21%, rgba(255,97,0,1) 48%, rgba(220,147,131,1) 93%);
     position: absolute;
+    z-index: 200;
     right: 0;
     left: 0;
     top: 0;
@@ -9,4 +17,36 @@
 .navbar-brand img {
     max-width: 100px; /* Adjust the logo size as needed */
     height: auto;
+}
+
+.dropdown-menu a {
+    color: #333;
+    border-radius: 12px;
+    transition: transform 0.15s ease-out;
+}
+
+/* Style the dropdown on hover */
+.dropdown-menu a:hover {
+    /* background-color: #007BFF; */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(214, 19, 29) 0%, rgb(213, 82, 12) 30%, rgb(211, 99, 6) 76%);
+    transform: translate(10px, 0);
+    color: #fff;
+}
+
+/* Style the active dropdown item */
+.dropdown-item.active {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.nav-item {
+    font-weight: bold;
+    border-bottom: 1px solid #ffffff00;
+    transition: border-bottom 0.15s;
+    padding-bottom: 0px;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
 }

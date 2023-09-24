@@ -24,7 +24,6 @@
     box-shadow: 5px 5px 6px 3px rgba(0, 0, 0, 0.15),
     -5px -5px 6px 3px rgba(226, 222, 222);
     border-radius: 8px;
-    z-index: 1000;
     height: 430px;
     width: 300px;
     padding: 10px;
@@ -89,4 +88,41 @@
 .info-btn-cont button:active {
     background-color: #0a58ca;
     border-color: #0a53be;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.about-text {
+    width: 800px;
+}
+
+.more-btn button {
+    padding: 10px 25px;
+    background-color: rgba(255,97,0,.75);
+    /* background: rgb(194,0,0);
+    background: linear-gradient(90deg, rgba(194,0,0,1) 21%, rgba(255,97,0,1) 48%, rgba(220,147,131,1) 93%); */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.more-btn button:hover {
+    background-color: rgba(255,97,0,.8);
+}
+
+.more-btn button:active {
+    background-color: rgba(255,97,0);
+}
+
+.about-text p {
+    font-size: 20px;
 }
