@@ -46,6 +46,8 @@ h1, p {
 .detail-area {
 	display: flex;
 	flex-direction: column;
+	flex: 1;
+	margin-right: 20px;
 }
 
 .detail-area .rel-img {
@@ -55,7 +57,7 @@ h1, p {
 
 .rel-img .prod-img {
 	background: none;
-	height: 320px;
+	height: 220px;
 	aspect-ratio: 2 / 1;
 	box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.45);
 	border-radius: 10px;
