@@ -16,6 +16,12 @@
     padding-left: 60px;
 }
 
+.prod-cat-title {
+    margin-left: 58px;
+    font-weight: bold;
+    font-size: 58px;
+}
+
 .product-container {
     display: flex;
     flex-direction: column;
