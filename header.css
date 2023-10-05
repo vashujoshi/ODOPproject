@@ -22,7 +22,7 @@ background: linear-gradient(90deg,  rgba(253,29,209,1) 42%, rgba(253,148,29,1) 6
 .dropdown-menu a {
     color: #333;
     border-radius: 12px;
-    transition: transform 0.15s ease-out;
+    transition: transform 0.15s;
 }
 
 /* Style the dropdown on hover */
